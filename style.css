@@ -1,0 +1,86 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+.container{
+    width:60vw;
+    padding:20px;
+   min-height:60vh;
+    margin: 60px auto;
+
+    background-color: rgb(250, 215, 247);
+}
+.quize{
+    width:100%;
+    padding:20px 40px;
+   height:100%;
+  
+}
+ul{
+    padding:30px;
+}
+ul >li{font-family: cursive;
+    font-weight: bold;
+   font-size:130%;
+   color:blue;
+   line-height: 40px;
+   list-style-type: none;
+}
+input{ 
+
+    margin-right: 20px;
+}
+button{
+    color: blue;
+    box-shadow: 0 0 10px green;
+    background-color: green;
+    padding: 10px 20px;
+    position: relative;
+    left: 180px;
+    font-size: 21px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.win{display:none;
+    border:solid 2px red;
+    padding:10px;
+    background-color:darkgrey;
+   
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    padding:20px;
+}
+.win button{
+    background-color: aquamarine;
+    font-size: 20px;
+    left:90px;
+    padding:7px 40px;
+}
+.ques{
+    font-family: cursive;
+    color: crimson;
+    box-shadow: 0  0 15px red;
+    
+}
+
+.chance{
+    background-color:rgb(232, 16, 185);
+    font-size: 20px;
+    color:rgb(13, 20, 230);
+    width:20%;
+    min-height:40px;
+    left:57%;
+    display: none;
+    border-radius: 5px;
+    padding:10px;
+
+   top:30%;
+    position:absolute;
+    text-align: center;
+}
